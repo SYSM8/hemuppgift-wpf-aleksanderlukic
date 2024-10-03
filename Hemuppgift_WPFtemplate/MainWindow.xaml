@@ -7,6 +7,33 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+
+
+
+        </Grid.ColumnDefinitions>
+
+        <!-- Lägga till element i specifika rader och kolumner -->
+        <Button Grid.Row="0" Grid.Column="0" Content="Grid"/>
+
+        <Button Grid.Row="0" Grid.Column="1" Content="StackPanel"/>
+
+        <Button Grid.Row="1" Grid.Column="0" Content="WrapPanel"/>
+
+        <Button Grid.Row="1" Grid.Column="1" Content="DockPanel"/>
+
+
+
+
 
     </Grid>
 </Window>
