@@ -28,6 +28,6 @@
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-        </Grid>
+        </Grid> 
     </StackPanel>
 </Window>

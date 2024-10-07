@@ -41,7 +41,7 @@ namespace Hemuppgift_WPFtemplate
                 else
                 {
                 MessageBox.Show("Vänligen ange gitliga rad- och kolumnvärden mellan 0 och 3.");
-            }
+            } 
         }
     }
 }
