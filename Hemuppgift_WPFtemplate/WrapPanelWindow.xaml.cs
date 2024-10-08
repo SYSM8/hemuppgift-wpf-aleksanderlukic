@@ -25,6 +25,9 @@ namespace Hemuppgift_WPFtemplate
         }
             private void OrientationChanged(object sender, RoutedEventArgs e)
             {
+
+            if (MainWrapPanel != null)
+            {
                 if ((sender as RadioButton).Content.ToString() == "Horizontal")
                 {
                     MainWrapPanel.Orientation = Orientation.Horizontal;
@@ -33,6 +36,9 @@ namespace Hemuppgift_WPFtemplate
                 {
                     MainWrapPanel.Orientation = Orientation.Vertical;
                 }
+
+            }
+           
             }
         }
     }

@@ -23,18 +23,15 @@
         </Grid.ColumnDefinitions>
 
         <!-- Lägga till element i specifika rader och kolumner -->
-        <Button Grid.Row="0" Grid.Column="0" Content="Grid" Click="Button_Click"            />
+        <Button Grid.Row="0" Grid.Column="0" Content="Grid" Click="Button_ClickGridWindow"            />
 
-        <Button Grid.Row="0" Grid.Column="1" Content="StackPanel" Click="Button_Click"      />
+        <Button Grid.Row="0" Grid.Column="1" Content="StackPanel" Click="Button_ClickStackPanelWindow"      />
 
-        <Button Grid.Row="1" Grid.Column="0" Content="WrapPanel"/>
+        <Button Grid.Row="1" Grid.Column="0" Content="WrapPanel" Click="Button_ClickWrapPanelWindow"     />
 
-        <Button Grid.Row="1" Grid.Column="1" Content="DockPanel"/>
+        <Button Grid.Row="1" Grid.Column="1" Content="DockPanel"  Click="Button_ClickDockPanelWindow"    />
         
         
-
-
-
 
 
     </Grid>

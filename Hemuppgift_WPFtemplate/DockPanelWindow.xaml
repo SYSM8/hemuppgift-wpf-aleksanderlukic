@@ -6,12 +6,11 @@
         xmlns:local="clr-namespace:Hemuppgift_WPFtemplate"
         mc:Ignorable="d"
         Title="DockPanelWindow" Height="450" Width="800">
-    <DockPanel>
+    <DockPanel x:Name="dockPanel">
         <Button Content="Top" DockPanel.Dock="Top" Height="30" Width="80" Margin="5"/>
         <Button Content="Bottom" DockPanel.Dock="Bottom" Height="30" Width="80" Margin="5"/>
         <Button Content="Left" DockPanel.Dock="Left" Height="30" Width="80" Margin="5"/>
         <Button Content="Right" DockPanel.Dock="Right" Height="30" Width="80" Margin="5"/>
         <Button x:Name="CenterButton" Content="Center" Height="30" Width="80" Margin="5" Click="CenterButton_Click"/>
-        <Image x:Name="TrophyImage" Visibility="Hidden" Source="trophy.png" Margin="5"/>
     </DockPanel>
 </Window>

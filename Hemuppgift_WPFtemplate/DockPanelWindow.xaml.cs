@@ -25,7 +25,15 @@ namespace Hemuppgift_WPFtemplate
         }
             private void CenterButton_Click(object sender, RoutedEventArgs e)
             {
-                TrophyImage.Visibility = Visibility.Visible;
-            }
+             
+            Image image = new Image();
+            image.Width = 200;
+            image.Height = 200;
+            BitmapImage imgSource = new BitmapImage(new Uri("C:\\Users\\aleksander\\Documents\\GitHub\\hemuppgift-wpf-aleksanderlukic\\Hemuppgift_WPFtemplate\\TrophyImage.jpg"));
+            image.Source = imgSource;
+
+            dockPanel.Children.Remove(CenterButton);
+            dockPanel.Children.Add(image);
+        }
         }
     }

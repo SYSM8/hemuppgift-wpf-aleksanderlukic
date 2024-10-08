@@ -8,12 +8,12 @@
         Title="GridWindow" Height="450" Width="800">
 
     <StackPanel>
-        <StackPanel Orientation="Horizontal" Margin="10"
+        <StackPanel Orientation="Horizontal" Margin="10">
             <TextBlock Text="Row:" VerticalAlignment="Center" Margin="5"/>
             <TextBox x:Name="RowInput" Width="50" Margin="5"/>
             <TextBlock Text="Column:" VerticalAlignment="Center" Margin="5"/>
             <TextBox x:Name="ColumnInput" Width="50" Margin="5"/>
-            <Button Content="Apply" Click="ApplyButton_Click" Margin="5"/>
+            <Button Content="Apply" Click="Button_Click" Margin="5"/>
         </StackPanel>
         <Grid x:Name="MainGrid">
             <Grid.RowDefinitions>

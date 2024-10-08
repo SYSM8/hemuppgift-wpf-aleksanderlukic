@@ -25,8 +25,11 @@ namespace Hemuppgift_WPFtemplate
 
         }
 
-            private void OrientationChanged(object sender, RoutedEventArgs e)
+        private void OrientationChanged(object sender, RoutedEventArgs e)
+        { if (MainStackPanel != null)
             {
+
+
                 if ((sender as RadioButton).Content.ToString() == "Vertical")
                 {
                     MainStackPanel.Orientation = Orientation.Vertical;
@@ -35,6 +38,7 @@ namespace Hemuppgift_WPFtemplate
                 {
                     MainStackPanel.Orientation = Orientation.Horizontal;
                 }
+            }
             }
         }
     }
